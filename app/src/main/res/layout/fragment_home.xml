@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/tvWelcomeText"
+        android:id="@+id/tvWelcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
@@ -30,7 +30,7 @@
         android:weightSum="2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvWelcomeText">
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome">
 
         <ImageView
             android:id="@+id/imgTakePhoto"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_videocam_24"
-            app:tint="@color/base_color"/>
+            app:tint="@color/base_color" />
 
     </LinearLayout>
 
